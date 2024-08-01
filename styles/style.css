@@ -1,0 +1,14 @@
+/* styles.css */
+.gradient-text {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+  }
+  
+  .gradient-text:hover {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+  }
+  
